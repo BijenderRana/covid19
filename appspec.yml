@@ -15,7 +15,7 @@ permissions:
     group: ec2-user
 
 hooks:
-  # During the BeforeInstall deployment lifecycle event, run the commands
+  ## During the BeforeInstall deployment lifecycle event, run the commands
   #   in the script specified in "location".
   BeforeInstall:
     - location: scripts/before_install.sh
